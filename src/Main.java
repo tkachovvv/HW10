@@ -25,6 +25,12 @@ public class Main {
         String lastName = "Ivanov";
         String fullName = lastName + " " + firstName + " " + middleName;
         System.out.println("ФИО сотрудника - " + fullName);
+        String fullNameCapital = fullName.toUpperCase();
+        System.out.println("Данные сотрудника для заполнения отчета - " + fullNameCapital);
+        String fullName1 = "Иванов Семён Семёнович";
+        String fullName2 = fullName1.replace("ё", "е");
+        System.out.println(fullName2);
 
     }
+
 }
