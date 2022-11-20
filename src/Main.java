@@ -20,6 +20,11 @@ public class Main {
         } else {
             System.out.println("Неудача!");
         }
+        String firstName = "Ivan";
+        String middleName = "Ivanovich";
+        String lastName = "Ivanov";
+        String fullName = lastName + " " + firstName + " " + middleName;
+        System.out.println("ФИО сотрудника - " + fullName);
 
     }
 }
